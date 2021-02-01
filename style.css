@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.boxUp,
+.boxDown {
+    width: 700px;
+    height: 300px;
+    background-color: rgb(173, 192, 207);
+}
+.boxUp{
+    min-height: 300px;
+    padding: 20px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    width: 40px;
+    height: 30px;
+}
+
+.textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+
+}
+
+.boxArea {
+    display: none;
+
+}
+
+.sytyleBox {
+    display: none;
+    /* display:flex; */
+    flex-direction: row;
+}
+
+select {
+    width: 250px;
+    height: 20px;
+}
+
+.color,
+.background {
+
+    width: 150px;
+    height: 40px;
+    background-color: darkslategray
+}
+
+.colorBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 152px;
+    height: 150px;
+    display: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    align-items: center;
+
+
+
+}
+
+.colorText {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    color: transparent;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.deeppink {
+    background-color: deeppink;
+}
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.colBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 152px;
+    height: 150px;
+    display: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    align-items: center;
+
+
+}
+
+.co {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    color: transparent;
+}
+
+.container2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(173, 192, 207);
+    display: none;
+    margin: 0 auto;
+}
+
+.form2 {
+    display: none;
+}
+
+.countLi {
+    height: 20px;
+    width: 400px;
+}
+
+.createList, .createTable {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(9, 247, 1);
+}
+.countTR, .countTD, .widthOfTD, .heightOfTD{
+    height: 30px;
+    width: 400px;
+}
+.widthOfBorder{
+    height: 30px;
+    width: 100px;
+}
+
+.smallSelect{
+        height: 30px;
+    width: 100px;
+}

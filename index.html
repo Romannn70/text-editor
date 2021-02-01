@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="boxUp">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="button">
+            <button type="button" value="edit" class="edit">edit</button>
+            <button type="button" value="style" class="buttonStyle">style</button>
+
+        </div>
+
+        <div class="boxDown">
+            <div class="boxArea">
+                <textarea name="textarea" id="" cols="30" rows="10" class="textarea"></textarea>
+                <div>
+                    <button type="button" value="add" class="add">add</button>
+                    <button type="button" value="save" class="save">save</button>
+                </div>
+            </div>
+
+            <div class="sytyleBox">
+                <div class="formblock">
+                    <form class="form1">
+                        <h3>Font size:</h3>
+                        <input type="radio" name="fontSize" value="12px">12px
+                        <input type="radio" name="fontSize" value="14px">14px
+                        <input type="radio" name="fontSize" value="16px" checked>16px
+                        <input type="radio" name="fontSize" value="18px">18px
+                        <input type="radio" name="fontSize" value="20px">20px
+
+                        <h3>Font Family:</h3>
+                        <select name="fontFamily">
+                            <option value="" selected disabled>choose option</option>
+                            <option value="serif">serif</option>
+                            <option value="monospace">monospace</option>
+                            <option value="cursive">cursive</option>
+                            <option value="fantasy">fantasy</option>
+
+                        </select>
+
+                        <h3>Style:</h3>
+                        <input type="checkbox" name="fontWeight" value="bold">Bold text
+                        <input type="checkbox" name="fontStyle" value="italic">Cursive text
+
+                        <h3>Colors:</h3>
+                        <button name="color" class="color" type="button" value="colorText"> Color of Text</button>
+                        <button name="background" class="background" type="button" value="colorText">Background
+                            Color</button>
+
+                    </form>
+                </div>
+                <div class="colorBox">
+                    <div class="colorText red">red</div>
+                    <div class="colorText blue">blue</div>
+                    <div class="colorText green">green</div>
+                    <div class="colorText yellow">yellow</div>
+                    <div class="colorText black">black</div>
+                    <div class="colorText pink">pink</div>
+                    <div class="colorText deeppink">deeppink</div>
+                    <div class="colorText white">white</div>
+                    <div class="colorText orange">orange</div>
+                </div>
+                <div class="colBox">
+                    <div class="co red">red</div>
+                    <div class="co blue">blue</div>
+                    <div class="co green">green</div>
+                    <div class="co yellow">yellow</div>
+                    <div class="co black">black</div>
+                    <div class="co pink">pink</div>
+                    <div class="co deeppink">deeppink</div>
+                    <div class="co white">white</div>
+                    <div class="co orange">orange</div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container2">
+
+        <h1>Choose what you want:</h1>
+
+        <input type="radio" name="rad" value="table" class="table">table
+        <input type="radio" name="rad" value="list" class="list">list
+
+        <form class="form2">
+            <span>Count li:</span>
+            <input type="text" name="countLi" id="" placeholder="Count li:" class="countLi">
+            <br>
+            <span>Type of marks:</span>
+            <select name="typeOfMarks">
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+                <option value="square">square</option>
+            </select>
+            <br>
+            <button type="button" class="createList">Create List</button>
+        </form>
+
+        <form class="form3">
+            <span>Count TR:</span>
+            <input type="text" name="countTR" id="" placeholder="Count TR" class="countTR">
+            <br>
+            <span>Count TD:</span>
+            <input type="text" name="countTD" id="" placeholder="Count TD" class="countTD">
+            <br>
+            <h3>Add style to your table:</h3>
+            <span>Width of TD:</span>
+            <input type="text" name="widthOfTD" id="" placeholder="Width of TD" class="widthOfTD">
+            <br>
+            <span>Height of TD:</span>
+            <input type="text" name="heightOfTD" id="" placeholder="Height of TD" class="heightOfTD">
+            <br>
+            <span>Width of border:</span>
+            <input type="text" name="widthOfBorder" id="" placeholder="Width:" class="widthOfBorder">
+            <span>Type of border:</span>
+            <select name="typeOfborder" class="smallSelect">
+                <option value="choose" disabled  selected>choose</option>
+                <option value="solid">solid</option>
+                <option value="dotted">dotted</option>
+                <option value="double">double</option>
+            </select>
+            <span>Color of border:</span>
+            <select name="colorOfborder" class="smallSelect">
+                <option value="choose" disabled selected>choose</option>
+                <option value="black">black</option>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+            </select>
+            <br>
+            <button type="button" class="createTable">Create Table</button>
+
+
+
+        </form>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
